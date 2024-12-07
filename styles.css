@@ -1,0 +1,98 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+/* Content Section */
+.content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-of-service {
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.terms-of-service h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.terms-of-service h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.terms-of-service p,
+.terms-of-service ul {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.terms-of-service ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.terms-of-service ul li {
+    margin-bottom: 10px;
+}
+
+.terms-of-service a {
+    color: #4b79a1;
+    text-decoration: none;
+}
+
+.terms-of-service a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #283e51;
+    color: white;
+    margin-top: 2rem;
+}
